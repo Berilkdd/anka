@@ -73,8 +73,6 @@
     .carousel-caption {
         background-color: rgba(0, 0, 0, 0.6);
         color: white;
-        font-size: small;
-        top:340px;
         left: 0;
         right: 0;
         bottom: 0; 
@@ -86,3 +84,37 @@
     .carousel-caption p {
         margin-bottom: 0.25rem;
     }
+
+
+
+    /* Media queries for different screen sizes */
+
+    @media (min-width: 1200px) {
+    .carousel-caption {
+        top: auto;
+        bottom: 0;
+        font-size: 0.8rem;
+        padding: 0.8rem;
+        
+    }
+    } 
+    
+    @media (max-width: 1199px) {
+    .carousel-caption {
+        top: auto;
+        bottom: 0;
+        font-size: 1rem;
+        padding: 1rem;
+        
+    }
+    }     
+     
+    @media (max-width: 540px) {
+    .carousel-caption {
+        top: auto;
+        bottom: 0;
+        font-size: 0.7rem;
+        padding: 0.5rem;
+    }
+    }
+
