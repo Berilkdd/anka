@@ -13,6 +13,7 @@
     --background-color: #f4efe7; /* cream */
     --highlight-color-light: #8491c5; /* lilac */
     --logo-color: #4a4a4a;
+    --alpha: 0.5;
     }
 
     /* Global syles */
@@ -67,4 +68,21 @@
         text-transform: uppercase;
     }
 
-    
+    /* header with carousel */
+
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        font-size: small;
+        top:340px;
+        left: 0;
+        right: 0;
+        bottom: 0; 
+        width: 100%;
+        padding: 0.5rem 0.5rem; 
+        display: block;
+    }
+
+    .carousel-caption p {
+        margin-bottom: 0.25rem;
+    }
