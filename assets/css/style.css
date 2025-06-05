@@ -8,8 +8,10 @@
     --secondary-font: "Crimson Text", Georgia; 
     --logo-font: "Quicksand", sans-serif;
     --primary-color: #f84d1d; /* orange */
-    --secondary-color: #8491c5;
-    --background-color: #f4efe7;
+    --secondary-color: #2b674b; /* green */
+    --highlight-color: #fecd04; /* yellow */
+    --background-color: #f4efe7; /* cream */
+    --highlight-color-light: #8491c5; /* lilac */
     }
 
     /* Global syles */
@@ -26,5 +28,16 @@
     }
 
     p {
-        border: 2px solid var(--primary-color);
+       
+    }
+
+    /* grid visualisation CSS for testing */
+
+    .row {
+        border: 2px solid black;
+    }
+
+    .col-12 {
+        border: 2px solid white;
+        background-color: lightgrey;
     }
