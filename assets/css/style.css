@@ -12,6 +12,7 @@
     --highlight-color: #fecd04; /* yellow */
     --background-color: #f4efe7; /* cream */
     --highlight-color-light: #8491c5; /* lilac */
+    --logo-color: #4a4a4a;
     }
 
     /* Global syles */
@@ -27,18 +28,37 @@
         color: var(--primary-color);
     }
 
-    p {
-       
+    /* Navbar */
+
+    #navbar {
+        background-color: var(--background-color);
     }
 
-    /* grid visualisation CSS for testing 
-
-    .row {
-        border: 2px solid black;
+    .custom-navbar {
+        height: 56px;
+        padding: 0;
     }
 
-    .col-12 {
-        border 2px solid white;
-        background-color: lightgrey;
+    .navbar-brand {
+        padding: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
     }
-    */
+
+    .logo-img {
+        height: 56px;
+        margin: 0;
+    }
+    
+    .brand-text {
+        font-size: 2.5rem;
+        font-family: var(--logo-font);
+        font-weight: lighter;
+        color: var(--logo-color);        
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+    }
+
+    
