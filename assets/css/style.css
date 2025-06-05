@@ -35,6 +35,22 @@
         margin-bottom: 2rem;
     }
 
+    /* Buttons */
+
+    .custom-button-outline {
+        border: 2px solid var(--secondary-color);
+        color: var(--secondary-color);
+    }
+
+    .custom-button-outline:hover {
+        background-color: var(--secondary-color);
+        color: white
+    }
+
+    .custom-link {
+        color: var(--primary-color);
+    }
+
     /* Navbar */
 
     #navbar {
@@ -84,8 +100,6 @@
     .carousel-caption p {
         margin-bottom: 0.25rem;
     }
-
-
 
     /* Media queries for different screen sizes */
 
