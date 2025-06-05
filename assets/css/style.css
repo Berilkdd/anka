@@ -19,6 +19,7 @@
 
     body {
         font-family: var(--primary-font);
+        background-color: var(--background-color);
     }
 
     h1,
@@ -26,6 +27,11 @@
     h3 {
         font-family: var(--secondary-font);
         color: var(--primary-color);
+    }
+
+    .section {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     /* Navbar */
