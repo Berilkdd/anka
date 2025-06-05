@@ -1,13 +1,30 @@
 /* Google fonts import */
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap');
 
-body {
-    font-family: "Inter", sans-serif;
-}
+/* CSS Variables */
+:root {
+    --primary-font: "Inter", sans-serif; 
+    --secondary-font: "Crimson Text", Georgia; 
+    --logo-font: "Quicksand", sans-serif;
+    --primary-color: #f84d1d; /* orange */
+    --secondary-color: #8491c5;
+    --background-color: #f4efe7;
+    }
 
-h1 {
-    font-family: "Crimson Text", Georgia;
-}
+    /* Global syles */
+
+    body {
+        font-family: var(--primary-font);
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: var(--secondary-font);
+        color: var(--primary-color);
+    }
+
+    p {
+        border: 2px solid var(--primary-color);
+    }
