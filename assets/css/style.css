@@ -81,7 +81,7 @@
     }
 
     .logo-img {
-        height: 56px;
+        height: 55px;
         margin: 0;
     }
     
@@ -93,14 +93,12 @@
         margin: 0;
         padding: 0;
         text-transform: uppercase;
-    }
+    } 
 
-    .navbar-collapse,
-    .navbar-collapse .navbar-nav,
-    .navbar-collapse .dropdown-menu {
-        background-color: var(--background-color);
-    }
-
+    .brand-text {
+        height: 55px;
+    }    
+     
     /* header with carousel */
 
     .carousel-caption {
@@ -172,11 +170,9 @@
     color: var(--secondary-color);
     }
 
-
-
-
     /* Media queries for different screen sizes */
 
+    /* extra large screens */
     @media (min-width: 1200px) {
     .carousel-caption {
         top: auto;
@@ -187,6 +183,7 @@
     }
     } 
     
+    /* large screens */
     @media (max-width: 1199px) {
     .carousel-caption {
         top: auto;
@@ -195,9 +192,35 @@
         padding: 1rem;
         
     }
-    }     
-     
-    @media (max-width: 540px) {
+    }    
+
+    /* Medium screens - tablets */
+    @media (max-width: 992px) {
+    .full-width-mobile-nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: var(--background-color); 
+        padding: 1rem 0;
+        z-index: 1000;
+        background-color: var(--background-color);
+    }
+
+    .full-width-mobile-nav .navbar-nav {
+        width: 90%;           
+    }
+    }
+
+
+
+
+
+
+    
+    /* small screens - mobile phone */
+    @media (max-width: 576px) {
     .carousel-caption {
         top: auto;
         bottom: 0;
