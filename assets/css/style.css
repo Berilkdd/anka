@@ -97,7 +97,31 @@
 
     .brand-text {
         height: 55px;
+    } 
+    
+    
+    /* customise the toggler from fontawsome */
+    .custom-toggler {
+        border: none;
+        background: none;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        font-weight:100;
+        color: grey;       
     }    
+
+    .custom-toggler:hover {
+        outline: none;
+        color: var(--logo-color);
+    }
+
+    .custom-toggler:focus,
+    .custom-toggler:active {
+        outline: none;
+        box-shadow: none;
+        border: none;
+        color: var(--logo-color);
+    }
      
     /* header with carousel */
 
@@ -212,12 +236,6 @@
         width: 90%;           
     }
     }
-
-
-
-
-
-
     
     /* small screens - mobile phone */
     @media (max-width: 576px) {
