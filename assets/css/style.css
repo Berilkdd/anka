@@ -121,6 +121,21 @@
         border: none;
         color: var(--logo-color);
     }
+
+    /* Pantry page cards */
+
+    .card,
+.card-body {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  margin-top:20px;
+  margin-bottom:40px;
+}
+
+    .card-text {
+        font-size: 0.8rem;
+    }
      
     /* header with carousel */
 
