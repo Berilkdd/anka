@@ -52,6 +52,16 @@
         color: var(--primary-color);
     }
 
+    .custom-button-filled {   
+        background-color: #B8583C;
+        color: var(--background-color);
+    }
+
+    .custom-button-filled:hover {
+        border: 2px solid  #B8583C;
+        color: #B8583C;
+    }
+
     /* Navbar */
 
     #navbar {
@@ -89,7 +99,6 @@
     .navbar-collapse .navbar-nav,
     .navbar-collapse .dropdown-menu {
         background-color: var(--background-color);
-        margin:0;
     }
 
     /* header with carousel */
