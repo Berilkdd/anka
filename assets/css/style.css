@@ -21,6 +21,7 @@
     body {
         font-family: var(--primary-font);
         background-color: var(--background-color);
+        padding-top: 59px;
     }
 
     h1,
@@ -82,6 +83,12 @@
         margin: 0;
         padding: 0;
         text-transform: uppercase;
+    }
+
+    .navbar-collapse,
+    .navbar-collapse .navbar-nav,
+    .navbar-collapse .dropdown-menu {
+        background-color: var(--background-color)
     }
 
     /* header with carousel */
