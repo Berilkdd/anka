@@ -188,6 +188,24 @@ _As a Visitor, I want to hear from real people so I feel more confident in Ankaâ
 All HTML files were tested using the official [W3C HTML Validator](https://validator.w3.org/).  
 All pages passed with **no errors**.
 
+#### HTML Validation Screenshots  
+Screenshots of each HTML pageâ€™s validation result are included below as evidence of successful validation:
+
+##### Homepage
+![Homepage HTML Validation](assets/images/test-screenshots/index-html-test.png)
+
+##### Pantry Page
+![Pantry HTML Validation](assets/images/test-screenshots/anka-pantry-html-test.png)
+
+##### Atelier Page
+![Atelier HTML Validation](assets/images/test-screenshots/anka-atelier-html-test.png)
+
+##### Products Page
+![Products HTML Validation](assets/images/test-screenshots/products-html-test.png)
+
+##### Success Page
+![Success HTML Validation](assets/images/test-screenshots/success-html-test.png)
+
 ### CSS Validation  
 Custom CSS was tested using the official [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).  
 No errors were detected.
