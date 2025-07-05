@@ -1,5 +1,5 @@
 
-# Anka – Artizans of Rebirth
+# Anka – Artisans of Rebirth
 
 A static, user-centric front-end website connecting artisan producers from Türkiye and Syria with supportive communities in the UK. Visitors can browse handmade products, learn about the makers' stories, and offer shelf space to support recovery through tradition.
 
