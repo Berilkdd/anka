@@ -148,15 +148,7 @@
         font-size: 0.8rem;
     }
 
-    /* Borders for debugging 
-
-     .card .col-md-6 {
-    border: 1px dashed #9d0e96;
-    }
-    .card-body {
-    border: 1px solid red;    
-    }
-    */        
+   
     
     /* Fix vertical alignment of card content */
 
@@ -289,10 +281,10 @@
         font-size: 0.7rem;
         padding: 0.5rem;
     }
-    }
-       
+    
     .footer-left,
     .footer-right {
+    display: flex;
     justify-content: center;
     flex: unset;
     width: 100%;
@@ -305,6 +297,8 @@
 
     #contact p {
     margin-bottom: 0.25rem;
+    text-align: center;
+    }
     }
     
 
