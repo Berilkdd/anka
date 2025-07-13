@@ -3,6 +3,9 @@
 
 A static, user-centric front-end website connecting artisan producers from TÃ¼rkiye and Syria with supportive communities in the UK. Visitors can browse handmade products, learn about the makers' stories, and offer shelf space to support recovery through tradition.
 
+![Mockup](https://github.com/Berilkdd/anka/blob/main/design-images/all-devices-black.png)
+
+
 ---
 
 ## Table of Contents
@@ -163,10 +166,8 @@ _As a Visitor, I want to hear from real people so I feel more confident in Ankaâ
 
 - **Fonts:** Crimson Text (headings), Inter (body), Quicksand (logo)
 - **Colors:**  
-  - Warm Beige `#f4efe7`  
-  - Dark Green `#2b674b`  
-  - Soft Terracotta `#b8583c`  
-  - Midnight Gray `#4a4a4a`
+![Color Palette](https://github.com/Berilkdd/anka/blob/main/assets/design-images/all-devices-black.png)
+
 - **Wireframes:** Created in Figma ([view here](https://www.figma.com/design/dz9qBsNOYxKX5iWGIIndAN))
 - Design evolved from initial mockups based on content flow.
 
