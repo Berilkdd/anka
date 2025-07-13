@@ -207,20 +207,20 @@
     flex-wrap: wrap;
     }
 
-    .footer-left,
-    .footer-right {
+    .footer-start,
+    .footer-end {
     flex: 1 1 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     }
 
-    .footer-left {
+    .footer-start {
     justify-content: flex-start;
     align-items: center;
     }
 
-    .footer-right {
+    .footer-end {
     justify-content: flex-end;
     align-items: center;
     }
@@ -282,8 +282,8 @@
         padding: 0.5rem;
     }
     
-    .footer-left,
-    .footer-right {
+    .footer-start,
+    .footer-end {
     display: flex;
     justify-content: center;
     flex: unset;
