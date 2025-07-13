@@ -59,9 +59,6 @@ A static, user-centric front-end website connecting artisan producers from TÃ¼rk
 
 ## User Stories
 
-<details>
-<summary>Click to expand all user stories</summary>
-
 ### Must-Have
 
 #### **User Story 1: Mobile-friendly navigation and responsive design**
@@ -75,6 +72,9 @@ _As a First-Time Visitor, I need intuitive navigation and a responsive design so
 **Tasks:**
 - Responsive Bootstrap layout
 - Simplified navbar structure
+
+![Homepage desktop](https://github.com/Berilkdd/anka/blob/main/user-stories-images/homepage.png)
+![Homepage mobile](https://github.com/Berilkdd/anka/blob/main/user-stories-images/homepage-mobile.png)
 
 ---
 
@@ -90,6 +90,8 @@ _As a Curious Visitor, I want to immediately understand what Anka does and feel 
 - Build structured homepage
 - Connect carousel to story grid
 
+![Homepage desktop](https://github.com/Berilkdd/anka/blob/main/user-stories-images/homepage2.png)
+
 ---
 
 #### **User Story 3: View artisan product categories and items**
@@ -104,6 +106,10 @@ _As a Shop Owner, I want to browse Pantry and Atelier separately so I can decide
 - Grid-based layout for products
 - Reusable label design system
 
+![Products page](https://github.com/Berilkdd/anka/blob/main/user-stories-images/products-page.png)
+![Pantry page](https://github.com/Berilkdd/anka/blob/main/user-stories-images/pantry-page.png)
+![Atelier page](https://github.com/Berilkdd/anka/blob/main/user-stories-images/atelier-page.png)
+
 ---
 
 #### **User Story 4: Simple form to offer shelf space**
@@ -116,6 +122,9 @@ _As a Supporter, I want to fill in a form to offer shelf space so I can be conta
 **Tasks:**
 - Form with validation
 - Success page confirmation
+
+![Form page](https://github.com/Berilkdd/anka/blob/main/user-stories-images/form-page.png)
+![Success page](https://github.com/Berilkdd/anka/blob/main/user-stories-images/success-page.png)
 
 ---
 
@@ -131,6 +140,7 @@ _As a Returning Visitor, I want to go straight to the form so I donâ€™t need to 
 **Tasks:**
 - Low-weight shelf CTA styling
 
+![Homepage desktop](https://github.com/Berilkdd/anka/blob/main/user-stories-images/homepage2.png)
 ---
 
 #### **User Story 6: Understand producers behind each product**
@@ -142,6 +152,9 @@ _As a Shop Owner, I want to see who made each item so I can share their story wi
 
 **Tasks:**
 - Design and add short labels
+
+![Pantry page](https://github.com/Berilkdd/anka/blob/main/user-stories-images/pantry-page.png)
+![Atelier page](https://github.com/Berilkdd/anka/blob/main/user-stories-images/atelier-page.png)
 
 ---
 
@@ -158,7 +171,11 @@ _As a Visitor, I want to hear from real people so I feel more confident in Ankaâ
 - Add carousel to homepage
 - Populate with authentic story visuals
 
-</details>
+![Mobile carousel 1](https://github.com/Berilkdd/anka/blob/main/user-stories-images/mob-1.png)
+![Mobile carousel 2](https://github.com/Berilkdd/anka/blob/main/user-stories-images/mob-2.png)
+![Mobile carousel 3](https://github.com/Berilkdd/anka/blob/main/user-stories-images/mob-3.png)
+![Mobile carousel 4](https://github.com/Berilkdd/anka/blob/main/user-stories-images/mob-4.png)
+![Mobile carousel 5](https://github.com/Berilkdd/anka/blob/main/user-stories-images/mob-5.png)
 
 ---
 
@@ -166,7 +183,7 @@ _As a Visitor, I want to hear from real people so I feel more confident in Ankaâ
 
 - **Fonts:** Crimson Text (headings), Inter (body), Quicksand (logo)
 - **Colors:**  
-![Color Palette](https://github.com/Berilkdd/anka/blob/main/assets/design-images/all-devices-black.png)
+![Color Palette](https://github.com/Berilkdd/anka/blob/main/design-images/color-palette.png)
 
 - **Wireframes:** Created in Figma ([view here](https://www.figma.com/design/dz9qBsNOYxKX5iWGIIndAN))
 - Design evolved from initial mockups based on content flow.
