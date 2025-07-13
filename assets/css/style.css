@@ -9,11 +9,9 @@
     --logo-font: "Quicksand", sans-serif;
     --primary-color: #B8583C; /* orange */
     --secondary-color: #2b674b; /* green */
-    --highlight-color: #fecd04; /* yellow */
     --background-color: #f4efe7; /* cream */
-    --highlight-color-light: #8491c5; /* lilac */
-    --logo-color: #4a4a4a;
-    --alpha: 0.5;
+    --logo-color-light: #808080; /* light grey */
+    --logo-color: #4a4a4a; /* dark grey */
     }
 
     /* Global syles */
@@ -38,7 +36,7 @@
     }
 
     h6 {
-        color: gray;
+        color: var(--logo-color-light);
         font-family: var(--primary-font);
         margin-bottom: 0;
     }
@@ -57,7 +55,7 @@
 
     .custom-button-outline:hover {
         background-color: var(--secondary-color);
-        color: white
+        color: var(--background-color)
     }
 
     .custom-link {
@@ -65,13 +63,13 @@
     }
 
     .custom-button-filled {   
-        background-color: #B8583C;
+        background-color: var(--primary-color);
         color: var(--background-color);
     }
 
     .custom-button-filled:hover {
-        border: 2px solid  #B8583C;
-        color: #B8583C;
+        border: 2px solid var(--primary-color);
+        color: var(--primary-color);
     }
 
     /* Navbar */
@@ -118,7 +116,7 @@
         padding: 0.5rem;
         font-size: 1.5rem;
         font-weight:100;
-        color: grey;       
+        color: var(--logo-color-light);       
     }    
 
     .custom-toggler:hover {
@@ -146,9 +144,7 @@
 
     .card-text {
         font-size: 0.8rem;
-    }
-
-   
+    }  
     
     /* Fix vertical alignment of card content */
 
@@ -161,21 +157,21 @@
     }
 
     .card .col-md-6:first-child {
-    height: auto; /* Allow the container height to adjust based on image content */
+    height: auto; 
     overflow: hidden;
     }
 
     .card .col-md-6:first-child img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Maintain the cover effect */
+    height: auto; 
+    object-fit: cover; 
     }
 
     /* header with carousel */
 
     .carousel-caption {
         background-color: rgba(0, 0, 0, 0.6);
-        color: white;
+        color: var(--background-color);
         left: 0;
         right: 0;
         bottom: 0; 
@@ -191,8 +187,8 @@
     /* Footer / contact */
 
     #contact {
-    background-color: #B8583C;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--background-color);
     padding: 0.5rem 0;
     font-size: 0.9rem;
     }
