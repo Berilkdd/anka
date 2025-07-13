@@ -195,13 +195,16 @@ Screenshots of each HTML page’s validation result are included below as eviden
 ![Homepage HTML Validation](assets/images/test-screenshots/index-html-test.png)
 
 ##### Pantry Page
-![Pantry HTML Validation](assets/images/test-screenshots/anka-pantry-html-test.png)
+![Pantry HTML Validation](assets/images/test-screenshots/anka-pantry.html-test.png)
 
 ##### Atelier Page
-![Atelier HTML Validation](assets/images/test-screenshots/anka-atelier-html-test.png)
+![Atelier HTML Validation](assets/images/test-screenshots/anka-atelier.html-test.png)
 
 ##### Products Page
 ![Products HTML Validation](assets/images/test-screenshots/products-html-test.png)
+
+##### Form Page
+![Form HTML Validation](assets/images/test-screenshots/form-html-test.png)
 
 ##### Success Page
 ![Success HTML Validation](assets/images/test-screenshots/success-html-test.png)
