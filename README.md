@@ -192,39 +192,43 @@ All pages passed with **no errors**.
 Screenshots of each HTML page’s validation result are included below as evidence of successful validation:
 
 ##### Homepage
-![Homepage HTML Validation](assets/images/test-screenshots/index-html-test.png)
+![Index HTML Validation](https://github.com/Berilkdd/anka/blob/main/test-results/home-html-validator.png)
 
 ##### Pantry Page
-![Pantry HTML Validation](assets/images/test-screenshots/anka-pantry.html-test.png)
+![Pantry HTML Validator)](https://github.com/Berilkdd/anka/blob/main/test-results/pantry-html-validator.png)
 
 ##### Atelier Page
-![Atelier HTML Validation](assets/images/test-screenshots/anka-atelier.html-test.png)
+![Atelier HTML Validator](https://github.com/Berilkdd/anka/blob/main/test-results/atelier-html-validator.png)
 
 ##### Products Page
-![Products HTML Validation](assets/images/test-screenshots/products-html-test.png)
+![Products HTML Validator](https://github.com/Berilkdd/anka/blob/main/test-results/products-html-validator.png)
 
-##### Form Page
-![Form HTML Validation](assets/images/test-screenshots/form-html-test.png)
+##### Offer a Shelf Page
+![Offer a Shelf Validator](https://github.com/Berilkdd/anka/blob/main/test-results/offer-a-shelf-html-validator.png)
 
 ##### Success Page
-![Success HTML Validation](assets/images/test-screenshots/success-html-test.png)
+![Success HTML Validation](https://github.com/Berilkdd/anka/blob/main/test-results/success-html-validator.png)
 
 ### CSS Validation  
-Custom CSS was tested using the official [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).  
-No errors were detected.
+Custom CSS was tested using the official ![Jigsaw CSS Validator] (https://jigsaw.w3.org/css-validator/).
+**No errors** detected.
+
+ ![Jigsaw CSS Validator](https://github.com/Berilkdd/anka/blob/main/test-results/css-validator.png) 
 
 ### Lighthouse Audit  
 Lighthouse tests were conducted using Chrome DevTools for both **mobile** and **desktop** views.
 
 **Mobile:**
-- **Performance**: 70  
+- **Performance**: 64  
 - **Accessibility**: 95  
 - **Best Practices**: 96  
 
 **Desktop:**
-- **Performance**: 97  
-- **Accessibility**: 96  
-- **Best Practices**: 96  
+- **Performance**: 93  
+- **Accessibility**: 95  
+- **Best Practices**: 96 
+
+![Lighthouse result for desktop]
 
 While the mobile performance score is lower, key areas like accessibility and best practices remain strong. Improvements were identified but deprioritized due to time constraints.
 
@@ -265,3 +269,6 @@ git clone https://github.com/Berilkdd/anka.git
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
+
+
+[def]: test-results/lighthouse-test.png
