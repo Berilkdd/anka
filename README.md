@@ -222,13 +222,13 @@ Lighthouse tests were conducted using Chrome DevTools for both **mobile** and **
 - **Performance**: 64  
 - **Accessibility**: 95  
 - **Best Practices**: 96  
+![Lighthouse result for mobile](https://github.com/Berilkdd/anka/blob/main/test-results/lighthouse-mobile-test.png)
 
 **Desktop:**
 - **Performance**: 93  
 - **Accessibility**: 95  
 - **Best Practices**: 96 
-
-![Lighthouse result for desktop]
+![Lighthouse result for desktop](https://github.com/Berilkdd/anka/blob/main/test-results/lighthouse-desktop-test.png)
 
 While the mobile performance score is lower, key areas like accessibility and best practices remain strong. Improvements were identified but deprioritized due to time constraints.
 
